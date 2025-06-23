@@ -21,8 +21,8 @@ const float TEMP_WARN_MARGIN = 0.5;  // ±0.5°C Warnbereich
 const float HUM_WARN_MARGIN = 2.0;   // ±2% Warnbereich
 
 // WLAN-Zugangsdaten
-const char* ssid = "Wi-Fi";
-const char* password = "aks_lohne";
+const char* ssid = "";
+const char* password = "";
 
 // Node-RED HTTP-Endpoint
 const char* serverUrl = "http://172.16.76.222:1880/sensor";
